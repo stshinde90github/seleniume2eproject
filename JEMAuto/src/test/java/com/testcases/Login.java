@@ -36,6 +36,7 @@ public class Login extends BaseClass{
 		demo.gettxtbxFirstName().sendKeys("First Name");
 		demo.gettxtbxLastName().sendKeys("Last Name");
 		System.out.println("Login class Before Class");
+		System.out.println("this is addded to check in Azure");
 	}
 	
 	@Test
