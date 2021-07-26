@@ -47,6 +47,7 @@ public class Login extends BaseClass{
 		wait.until(ExpectedConditions.visibilityOf(contactSale.getEmailID()));
 		contactSale.getEmailID().sendKeys("abc@gmail.com");
 		 System.out.println("Login class Test Method");
+		 System.out.println("this is addded to check in Azure");
 	}
 	
 	@AfterSuite
